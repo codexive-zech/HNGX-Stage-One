@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+/* Container styles */
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Slack Display Picture styles */
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 40px auto;
+  display: block;
+}
+
+/* Current Day of the Week styles */
+.week-day {
+  font-size: 24px;
+  color: #007bff;
+  margin-top: 30px;
+}
+
+/* Current UTC Time styles */
+.current-time {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Track styles */
+.track {
+  font-size: 18px;
+  color: #555;
+  margin-top: 30px;
+}
